@@ -1,4 +1,4 @@
 \contentsline {chapter}{\numberline {1}Sanand Bottling Plant - Day 1}{2}% 
-\contentsline {section}{\numberline {1.1}Salient Points}{2}% 
-\contentsline {section}{\numberline {1.2}Glossary and Abbreviations}{2}% 
-\contentsline {section}{\numberline {1.3}FAQs}{2}% 
+\contentsline {section}{\numberline {1.1}Glossary and Abbreviations}{2}% 
+\contentsline {section}{\numberline {1.2}Introduction to Sanand LPG Bottling Plant - Salient Points}{2}% 
+\contentsline {section}{\numberline {1.3}FAQs}{3}% 
