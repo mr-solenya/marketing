@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.4.10)  18 AUG 2019 18:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.4.10)  18 AUG 2019 19:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1146,12 +1146,20 @@ Overfull \hbox (9.85785pt too wide) in paragraph at lines 174--175
 Chapter 2.
 [6
 
+]
+Chapter 3.
+[7
+
+]
+Chapter 4.
+[8
+
 ] (./marketing_tuneer.aux) ) 
 Here is how much of TeX's memory you used:
- 29352 strings out of 494484
- 584579 string characters out of 6175786
+ 29353 strings out of 494484
+ 584595 string characters out of 6175786
  624770 words of memory out of 5000000
- 32484 multiletter control sequences out of 15000+600000
+ 32485 multiletter control sequences out of 15000+600000
  563023 words of font info for 164 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  61i,7n,96p,592b,556s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1164,10 +1172,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on marketing_tuneer.pdf (7 pages, 273311 bytes).
+Output written on marketing_tuneer.pdf (9 pages, 278738 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  55420 words of extra memory for PDF output out of 61914 (max. 10000000)
 
