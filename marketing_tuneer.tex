@@ -13,6 +13,7 @@
 \usepackage{mathdots}
 \usepackage{yhmath}
 \usepackage{cancel}
+\usepackage{float}
 \usepackage{color}
 \usepackage{siunitx}
 \usepackage{array}
@@ -41,6 +42,14 @@
 		\item HO= Head Office
 		\item DOA= Delegation of Authority
 		\item BCW= Blue Collar Workers
+		\item VCB= Vacuum Circuit Breaker
+		\item ACB= Air Circuit Breaker
+		\item EB= Electricity Board
+		\item T/F= Transformer
+		\item CT= Current Transformer
+		\item PT= Potential Transformer
+		\item CB= Circuit Breaker
+		\item SFU= Switch Fuse Unit (See Fig \ref{sfu})
 	\end{itemize}
 	\section{Sanand Bottling Plant - Day 1 (13.08.2019)}
 	
@@ -123,7 +132,7 @@
 			\item between 22000 to 68000 ---- Major
 			\item greater than 68000 ---- Mega
 		\end{enumerate}
-		Based on information given above the average production per month of Sanand BP is 15000 therefore appx. production per annum 15000 X 12 = 180000 which is greater than 68000. Therefore, Sanand BP is a Mega Plant.
+		Based on information given above the average production per month of Sanand BP is 15000 therefore appx. production per annum 15000 X 12 = 180000 which is greater than 68000. Therefore, Sanand BP is a Mega Plant.2
 		\item Vapour seals are used in water drains so that LPG vapour (which is heavier than air) cannot travel outside the plant licensed area where it can catch spark and ignite thereby causing grave fatalities and carry the ignition to plant and cause an even bigger calamity.
 		\item Types of storage at any LPG facility can be as follows:-
 		\begin{itemize}
@@ -171,8 +180,55 @@
 	\section{Sanand Bottling Plant - Day 2 (14.08.2019)}
 	\subsection{Electrical Systems - Salient Points}
 	\textit{Faculty: Shri. Prakash Chand Meena, OO(P), Sanand BP}\\
-	\ldots
-	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{bp_singlelinediag}
+		\caption{Basic single line diagram of a bottling plant electrical distribution system}
+		\label{bp_singlelinediag}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.5\linewidth]{sfu}
+		\caption{Schematic diagram of a Switch Fuse Unit}
+		\label{sfu}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.5\linewidth]{dc_distribution}
+		\caption{Schematic diagram of a Switch Fuse Unit}
+		\label{dc_distribution}
+	\end{figure}
+	With respect to Fig \ref{bp_singlelinediag}, the following points should be noted:-
+	\begin{itemize}
+		\item VCB1 monitors the following - voltage, power factor, frequency, current and has ratings as defined in Table \ref{vcb1_nameplate}
+		\item The VCB has the following components for operation - CTs, PTs and CBs.
+		\item Inside any panel, the electrical power goes through the following equipment-s in order:- SFU (415 V), Fuse, Contactor(125 A rating), Thermal Relay (only for over current). See Fig \ref{sfu}.
+		\item There are total 17 racks each with 2 sides and 6 units (as rows) on each side. So all in all there is accommodation for 17 X 2 X 6 = 228 equipment such as conveyer motor etc.
+		\item All the control signals for the VCB and ACBs need 110 V DC supply as does the emergency lights. This is supplied by a DC distribution system as shown in Fig. \ref{dc_distribution}.
+	\end{itemize}
+	\begin{table}[]
+		\centering
+		\begin{tabular}{@{}lll@{}}
+			\toprule
+			\textbf{S. No.} & \textbf{SPECIFICATION}   & \textbf{VALUE}    \\ \midrule
+			1               & TYPE                     & VK 10J20          \\
+			2               & SERIAL NUMBER            & 2639              \\
+			3               & YEAR                     & 1995              \\
+			4               & STANDARD                 & IS:13118 / IEC-56 \\
+			5               & RATED FREQUENCY          & 50 Hz             \\
+			6               & RATED VOLTAGE            & 12 kV             \\
+			7               & RATED CURRENT            & 630               \\
+			8               & Ins.LEVEL Imp.           & 75 kVp;P.F.28 kV  \\
+			9               & RATED BREAKING CURRENT   & 20 kA             \\
+			10              & RATED MAKING CURRENT     & 50 A (Peak)       \\
+			11              & SUPPLY VOLTAGE CLOSING   & 110 V DC          \\
+			12              & SUPPLY VOLTAGE TRIPPING  & 110 V DC          \\
+			13              & RATED SHORT TIME CURRENT & 20 kA ( 3 secs)   \\
+			14              & WEIGHT OF BREAKER        & 70 kg             \\ \bottomrule
+		\end{tabular}
+		\caption{VCB1 technical specifications made in technical collaboration with Toshiba Japan}
+		\label{vcb1_nameplate}
+	\end{table}
 	\subsection{LPG Plant Safety - Salient Points}
 	\textit{Faculty: Shri. Umesh Malviya, OO(LPG-Safety), Sanand BP}\\
 	\ldots
