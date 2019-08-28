@@ -50,6 +50,7 @@
 		\item PT= Potential Transformer
 		\item CB= Circuit Breaker
 		\item SFU= Switch Fuse Unit (See Fig \ref{sfu})
+		\item EP= Earthing Pit
 	\end{itemize}
 	\section{Sanand Bottling Plant - Day 1 (13.08.2019)}
 	
@@ -208,7 +209,16 @@
 	\end{itemize}
 	\begin{itemize}
 		\item In the panels the following protection measures are present \textbf{Switch} to \textbf{Fuse}(Now replaced by \textbf{SFU} - Switch Fuse Unit See Fig \ref{sfu}) to \textbf{Contactor} to \textbf{Thermal Relay} to \textbf{Equipment}. The practical example of this can be seen in Fig \ref{inside_panel}.
-		\item For 
+		\item In tranformers, as we can see from Table \ref{sanand_isolation_tf_datacard}, \ref{sanand_stepdown_tf_datacard} there is a guaranteed rise of temperature of winding and oil upto \ang{55}C, therefore the high temperature alarm goes off at \ang{60}C and trips the transformers at \ang{90}C for oil OR winding overheating.
+		\item Other that this, there is no inline protection for transformers such as differential protection (protection by Mertz-Price Circulating Current principle).
+		\item However, for protection of transformers from Incipient faults, there are Buccholz Relays attached to each transformer. 
+		\item For reactive power compensation there are capacitor banks which are switched on and off via thyristors with the help of a automatic VAR compensator which keeps the power factor above 0.96 by switching on as many capacitors as required. The following are the capacities of the compensators available (Total Capacity= 340 kVAR):-
+		\begin{itemize}
+			\item 25 kVAR X 13 = 325 kVAR
+			\item 10 kVAR X 1  = 010 kVAR
+			\item 5 kVAR X 1 =   005 kVAR
+		\end{itemize}
+		\item There are 3 types of earthing present in a bottling plant (or any industrial facility for that matter) - Neutral Earthing (for DG and TF), Lightning Earthing (for Buildings and other structures), Body Earthing (for every electrical equipment in the plant and 2 point earthing if operating voltage is more than 250 Volts). The earthing schemes as per OISD regulations are roughly described in Fig \ref{bp_earthing}
 	\end{itemize}
 	\begin{table}[]
 		\centering
@@ -292,6 +302,14 @@
 		\caption{Inside view of a panel showing its safety features}
 		\label{inside_panel}
 	\end{figure}
+	\begin{figure}
+		\centering
+		\subfloat[][Neutral Earthing]{\includegraphics[height=5cm,width=5cm]{neutral_earthing}\label{neutral_earthing}}
+		\subfloat[][Lightning Earthing]{\includegraphics[height=5cm,width=5cm]{lightning_earthing}\label{lightning_earthing}}
+		\subfloat[][Body Earthing]{\includegraphics[height=5cm,width=5cm]{body_earthing}\label{body_earthing}}
+		\caption{Different types of earthing schemes}
+		\label{bp_earthing}
+	\end{figure}
 	\subsection{LPG Plant Safety - Salient Points}
 	\textit{Faculty: Shri. Umesh Malviya, OO(LPG-Safety), Sanand BP}\\
 	\ldots
@@ -302,7 +320,7 @@
 	\textit{Faculty: Shri. Himanshu Jatav, OO(P), Sanand BP}\\
 	\ldots
 	
-	\subsection{Electrical Systems - Salient Points}
+	\subsection{Bulk - Salient Points}
 	\textit{Faculty: Shri. Shirish Rao, SM(P), Sanand BP}\\
 	\ldots
 	
