@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.4.10)  20 AUG 2019 22:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.4.10)  28 AUG 2019 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1174,36 +1174,49 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [4]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 209.
+               Default added (so using `tbp') on input line 213.
 
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 236.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 263.
+
+<./images/inside_panel.jpg, id=62, 1530.46782pt x 2482.77562pt>
+File: ./images/inside_panel.jpg Graphic file (type jpg)
+<use ./images/inside_panel.jpg>
+Package pdftex.def Info: ./images/inside_panel.jpg  used on input line 291.
+(pdftex.def)             Requested size: 175.38124pt x 284.52756pt.
 [5 <./images/lpg_flow.jpg>] [6 <./images/bp_singlelinediag.jpg>]
-Overfull \hbox (9.85785pt too wide) in paragraph at lines 264--265
+Overfull \hbox (9.85785pt too wide) in paragraph at lines 327--328
 []\OT1/cmr/m/n/10/-25ls (-50) answer 
  []
 
-[7 <./images/sfu.jpg> <./images/dc_distribution.jpg>] (./marketing_tuneer.aux) 
-) 
+[7 <./images/sfu.jpg> <./images/dc_distribution.jpg>] [8] [9 <./images/inside_p
+anel.jpg>] (./marketing_tuneer.aux) ) 
 Here is how much of TeX's memory you used:
- 29425 strings out of 494484
- 585794 string characters out of 6175786
- 631201 words of memory out of 5000000
- 32550 multiletter control sequences out of 15000+600000
+ 29433 strings out of 494484
+ 586002 string characters out of 6175786
+ 633231 words of memory out of 5000000
+ 32557 multiletter control sequences out of 15000+600000
  563023 words of font info for 164 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 61i,8n,96p,592b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmti10.pfb>
-Output written on marketing_tuneer.pdf (8 pages, 3663907 bytes).
+ 61i,14n,96p,592b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on marketing_tuneer.pdf (10 pages, 4369207 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 109 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 55435 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 55440 words of extra memory for PDF output out of 61914 (max. 10000000)
 

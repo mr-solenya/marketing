@@ -206,6 +206,10 @@
 		\item There are total 17 racks each with 2 sides and 6 units (as rows) on each side. So all in all there is accommodation for 17 X 2 X 6 = 228 equipment such as conveyer motor etc.
 		\item All the control signals for the VCB and ACBs need 110 V DC supply as does the emergency lights. This is supplied by a DC distribution system as shown in Fig. \ref{dc_distribution}.
 	\end{itemize}
+	\begin{itemize}
+		\item In the panels the following protection measures are present \textbf{Switch} to \textbf{Fuse}(Now replaced by \textbf{SFU} - Switch Fuse Unit See Fig \ref{sfu}) to \textbf{Contactor} to \textbf{Thermal Relay} to \textbf{Equipment}. The practical example of this can be seen in Fig \ref{inside_panel}.
+		\item For 
+	\end{itemize}
 	\begin{table}[]
 		\centering
 		\begin{tabular}{@{}lll@{}}
@@ -229,6 +233,65 @@
 		\caption{VCB1 technical specifications made in technical collaboration with Toshiba Japan}
 		\label{vcb1_nameplate}
 	\end{table}
+	\begin{table}[]
+		\centering
+		\begin{tabular}{@{}lll@{}}
+			\toprule
+			\textbf{S. No.} & \textbf{Specification}       & \textbf{Value}             \\ \midrule
+			1               & Specification                & IS 2028                    \\
+			2               & Phase                        & 3                          \\
+			3               & Frequency                    & 50Hz                       \\
+			4               & Ambient Temperature          & 45 Degree C                \\
+			5               & Max Temperature Allowed      & 55 Degree C                \\
+			6               & Primary Winding              & 433 Volts +2.5\%+5\% DELTA \\
+			7               & Secondary Winding            & 433 Volts STAR             \\
+			8               & Primary Vpeak or Amplitude   & 266.67 Volts               \\
+			9               & Secondary Vpeak or Amplitude & 266.67 Volts               \\
+			10              & Impedance Volts              & 4.62\%                     \\
+			11              & Oil                          & 330 l                      \\
+			12              & Vector Group Ref.            & Dyn11                      \\
+			13              & Cooling                      & ON/AN                      \\
+			14              & KVol                         & 200                        \\
+			15              & Insulation Class             & A                          \\
+			16              & Type                         & DW                         \\
+			17              & Weight                       & 1110 kg                    \\
+			18              & Serial Number                & ABY-1-9                    \\ \bottomrule
+		\end{tabular}
+		\caption{Data card for the Isolation Transformer for the lighting equipment as mentioned in Fig \ref{bp_singlelinediag}}
+		\label{sanand_isolation_tf_datacard}
+	\end{table}
+	\begin{table}[]
+		\centering
+		\begin{tabular}{@{}lll@{}}
+			\toprule
+			\textbf{S. No.} & \textbf{Specifications}                                                 & \textbf{Value}                                      \\ \midrule
+			1               & Standard                                                                & IS 2026-1977                                        \\
+			2               & kVA Rating                                                              & \begin{tabular}[c]{@{}l@{}}1000\\  kVA\end{tabular} \\
+			3               & HV Voltage Rating (No Load)                                             & 11000 Volts                                         \\
+			4               & LV Voltage Rating (No Load)                                             & 433 Volts                                           \\
+			5               & HV Current Rating                                                       & 52.5 A                                              \\
+			6               & LV Current Rating                                                       & 1333 A                                              \\
+			7               & No. of phases at HV and LV                                              & 3                                                   \\
+			8               & Type of Cooling                                                         & ONAN                                                \\
+			9               & Impedance Volts                                                         & 4.13\%                                              \\
+			10              & Vector Group Reference                                                  & Dyn 11                                              \\
+			11              & Core and Windings Weight                                                & 1520 kg                                             \\
+			12              & Oil Weight                                                              & 740 kg                                              \\
+			13              & Total Weight                                                            & 3260 kg                                             \\
+			14              & Oil Quantity                                                            & 770 litres                                          \\
+			15              & Year of Manufacture                                                     & 1995                                                \\
+			16              & \begin{tabular}[c]{@{}l@{}}Max Temp Rise of Oil\\  and Wdg\end{tabular} & 55 degrees C                                        \\
+			17              & Insulation Level                                                        & LI 75 AC 28/LI AC-3                                 \\ \bottomrule
+		\end{tabular}
+	\caption{Datacard for the main step down transformer connected to the Electricity Board in Fig \ref{bp_singlelinediag}}
+	\label{sanand_stepdown_tf_datacard}
+	\end{table}
+	\begin{figure}
+		\centering
+		\includegraphics[height=10cm]{inside_panel}
+		\caption{Inside view of a panel showing its safety features}
+		\label{inside_panel}
+	\end{figure}
 	\subsection{LPG Plant Safety - Salient Points}
 	\textit{Faculty: Shri. Umesh Malviya, OO(LPG-Safety), Sanand BP}\\
 	\ldots
