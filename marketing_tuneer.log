@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.4.10)  28 AUG 2019 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.4.10)  28 AUG 2019 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1144,127 +1144,137 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--201
  []
 
 [4]
-Overfull \hbox (9.85785pt too wide) in paragraph at lines 249--250
-[]\OT1/cmr/m/n/10/-25ls (-50) answer 
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
  []
 
 [5]
+Overfull \hbox (9.85785pt too wide) in paragraph at lines 287--288
+[]\OT1/cmr/m/n/10/-25ls (-50) answer 
+ []
+
+[6]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6
+[7
 
-] [7]
-<./images/lot_valve.png, id=64, 105.39375pt x 409.53pt>
+] [8]
+<./images/lot_valve.png, id=67, 105.39375pt x 409.53pt>
 File: ./images/lot_valve.png Graphic file (type png)
 <use ./images/lot_valve.png>
-Package pdftex.def Info: ./images/lot_valve.png  used on input line 337.
+Package pdftex.def Info: ./images/lot_valve.png  used on input line 375.
 (pdftex.def)             Requested size: 142.26736pt x 142.26283pt.
-<./images/sc_valve.jpg, id=66, 96.36pt x 96.36pt>
+<./images/sc_valve.jpg, id=69, 96.36pt x 96.36pt>
 File: ./images/sc_valve.jpg Graphic file (type jpg)
 <use ./images/sc_valve.jpg>
-Package pdftex.def Info: ./images/sc_valve.jpg  used on input line 338.
+Package pdftex.def Info: ./images/sc_valve.jpg  used on input line 376.
 (pdftex.def)             Requested size: 142.26353pt x 142.26353pt.
-<./images/lpg_flow.jpg, id=67, 1073.00874pt x 537.00626pt>
+<./images/lpg_flow.jpg, id=70, 1073.00874pt x 537.00626pt>
 File: ./images/lpg_flow.jpg Graphic file (type jpg)
 <use ./images/lpg_flow.jpg>
-Package pdftex.def Info: ./images/lpg_flow.jpg  used on input line 343.
+Package pdftex.def Info: ./images/lpg_flow.jpg  used on input line 381.
 (pdftex.def)             Requested size: 528.93675pt x 264.71681pt.
-<./images/bp_singlelinediag.jpg, id=68, 4312.11pt x 2581.645pt>
+<./images/bp_singlelinediag.jpg, id=71, 4312.11pt x 2581.645pt>
 File: ./images/bp_singlelinediag.jpg Graphic file (type jpg)
 <use ./images/bp_singlelinediag.jpg>
-Package pdftex.def Info: ./images/bp_singlelinediag.jpg  used on input line 349
+Package pdftex.def Info: ./images/bp_singlelinediag.jpg  used on input line 387
 .
 (pdftex.def)             Requested size: 528.93675pt x 316.63837pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/sfu.jpg, id=69, 4111.36pt x 3392.675pt>
+<./images/sfu.jpg, id=72, 4111.36pt x 3392.675pt>
 File: ./images/sfu.jpg Graphic file (type jpg)
 <use ./images/sfu.jpg>
-Package pdftex.def Info: ./images/sfu.jpg  used on input line 355.
+Package pdftex.def Info: ./images/sfu.jpg  used on input line 393.
 (pdftex.def)             Requested size: 264.46837pt x 218.20206pt.
-<./images/inside_panel.jpg, id=70, 1530.46782pt x 2482.77562pt>
+<./images/inside_panel.jpg, id=73, 1530.46782pt x 2482.77562pt>
 File: ./images/inside_panel.jpg Graphic file (type jpg)
 <use ./images/inside_panel.jpg>
-Package pdftex.def Info: ./images/inside_panel.jpg  used on input line 356.
+Package pdftex.def Info: ./images/inside_panel.jpg  used on input line 394.
 (pdftex.def)             Requested size: 264.44969pt x 284.50926pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/dc_distribution.jpg, id=71, 4211.735pt x 3115.64pt>
+<./images/dc_distribution.jpg, id=74, 4211.735pt x 3115.64pt>
 File: ./images/dc_distribution.jpg Graphic file (type jpg)
 <use ./images/dc_distribution.jpg>
-Package pdftex.def Info: ./images/dc_distribution.jpg  used on input line 362.
+Package pdftex.def Info: ./images/dc_distribution.jpg  used on input line 400.
 (pdftex.def)             Requested size: 264.46837pt x 195.6303pt.
-<./images/battery_pack_sanand.jpg, id=72, 2119.92pt x 3022.29124pt>
+<./images/battery_pack_sanand.jpg, id=75, 2119.92pt x 3022.29124pt>
 File: ./images/battery_pack_sanand.jpg Graphic file (type jpg)
 <use ./images/battery_pack_sanand.jpg>
-Package pdftex.def Info: ./images/battery_pack_sanand.jpg  used on input line 3
-63.
+Package pdftex.def Info: ./images/battery_pack_sanand.jpg  used on input line 4
+01.
 (pdftex.def)             Requested size: 199.55069pt x 284.52756pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/neutral_earthing.jpg, id=73, 2686.035pt x 3766.07pt>
+<./images/neutral_earthing.jpg, id=76, 2686.035pt x 3766.07pt>
 File: ./images/neutral_earthing.jpg Graphic file (type jpg)
 <use ./images/neutral_earthing.jpg>
-Package pdftex.def Info: ./images/neutral_earthing.jpg  used on input line 369.
+Package pdftex.def Info: ./images/neutral_earthing.jpg  used on input line 407.
 
 (pdftex.def)             Requested size: 174.51643pt x 284.51183pt.
-<./images/lightning_earthing.jpg, id=74, 3982.88pt x 2938.98pt>
+<./images/lightning_earthing.jpg, id=77, 3982.88pt x 2938.98pt>
 File: ./images/lightning_earthing.jpg Graphic file (type jpg)
 <use ./images/lightning_earthing.jpg>
-Package pdftex.def Info: ./images/lightning_earthing.jpg  used on input line 37
-0.
+Package pdftex.def Info: ./images/lightning_earthing.jpg  used on input line 40
+8.
 (pdftex.def)             Requested size: 174.54228pt x 284.49773pt.
-<./images/body_earthing.jpg, id=75, 3641.605pt x 3284.27pt>
+<./images/body_earthing.jpg, id=78, 3641.605pt x 3284.27pt>
 File: ./images/body_earthing.jpg Graphic file (type jpg)
 <use ./images/body_earthing.jpg>
-Package pdftex.def Info: ./images/body_earthing.jpg  used on input line 371.
+Package pdftex.def Info: ./images/body_earthing.jpg  used on input line 409.
 (pdftex.def)             Requested size: 174.53389pt x 284.49638pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/hazchem.jpg, id=76, 280.04625pt x 232.61906pt>
+<./images/hazchem.jpg, id=79, 280.04625pt x 232.61906pt>
 File: ./images/hazchem.jpg Graphic file (type jpg)
 <use ./images/hazchem.jpg>
-Package pdftex.def Info: ./images/hazchem.jpg  used on input line 377.
+Package pdftex.def Info: ./images/hazchem.jpg  used on input line 415.
 (pdftex.def)             Requested size: 264.46837pt x 219.68773pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8
+[9
 
  <./images/lot_valve.png> <./images/sc_valve.JPG> <./images/lpg_flow.jpg>]
-[9 <./images/bp_singlelinediag.jpg> <./images/sfu.jpg> <./images/inside_panel.j
-pg>] [10 <./images/dc_distribution.jpg> <./images/battery_pack_sanand.jpg> <./i
-mages/neutral_earthing.jpg> <./images/lightning_earthing.jpg> <./images/body_ea
-rthing.jpg>] [11 <./images/hazchem.jpg>] (./marketing_tuneer.aux) ) 
+[10 <./images/bp_singlelinediag.jpg> <./images/sfu.jpg> <./images/inside_panel.
+jpg>] [11 <./images/dc_distribution.jpg> <./images/battery_pack_sanand.jpg> <./
+images/neutral_earthing.jpg> <./images/lightning_earthing.jpg> <./images/body_e
+arthing.jpg>] [12 <./images/hazchem.jpg>] (./marketing_tuneer.aux) ) 
 Here is how much of TeX's memory you used:
  29552 strings out of 494484
  588087 string characters out of 6175786
- 630450 words of memory out of 5000000
+ 630454 words of memory out of 5000000
  32637 multiletter control sequences out of 15000+600000
  564043 words of font info for 184 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  61i,14n,96p,624b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
->
-Output written on marketing_tuneer.pdf (12 pages, 9735477 bytes).
+</usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
+b>
+Output written on marketing_tuneer.pdf (13 pages, 9737118 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 128 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  55465 words of extra memory for PDF output out of 61914 (max. 10000000)
 

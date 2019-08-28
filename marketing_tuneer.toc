@@ -14,6 +14,6 @@
 \contentsline {subsection}{\numberline {1.5.1}Stores - Salient Points}{5}% 
 \contentsline {subsection}{\numberline {1.5.2}Shed Visit}{5}% 
 \contentsline {subsection}{\numberline {1.5.3}Closing Session - Salient Points}{5}% 
-\contentsline {section}{\numberline {1.6}FAQs}{5}% 
-\contentsline {section}{\numberline {1.7}Tables}{6}% 
-\contentsline {section}{\numberline {1.8}Figures}{8}% 
+\contentsline {section}{\numberline {1.6}FAQs}{6}% 
+\contentsline {section}{\numberline {1.7}Tables}{7}% 
+\contentsline {section}{\numberline {1.8}Figures}{9}% 
