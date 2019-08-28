@@ -11,6 +11,7 @@
 \usepackage{amsmath}
 \usepackage{tikz}
 \usepackage{mathdots}
+\usepackage{epigraph}
 \usepackage{yhmath}
 \usepackage{cancel}
 \usepackage{float}
@@ -34,7 +35,8 @@
 	\chapter{Sanand Bottling Plant}
 	\section{Important Terms and Abbreviations}
 	\begin{itemize}
-		\item OISD = Oil Industry and Safety Directorate
+		\item OISD= Oil Industry and Safety Directorate
+		\item PESO= Petroleum and Explosives Safety Organization
 		\item TT= Tanker Trucks
 		\item Cavitation = Cavitation is a phenomenon in which rapid changes of pressure in a liquid lead to the formation of small vapor-filled cavities, in places where the pressure is relatively low.When subjected to higher pressure, these cavities, called "bubbles" or "voids", collapse and can generate an intense shock wave. These shock waves can damage pumps/motors.
 		\item CFM= Cubic Feet per Minute
@@ -51,23 +53,14 @@
 		\item CB= Circuit Breaker
 		\item SFU= Switch Fuse Unit (See Fig \ref{sfu})
 		\item EP= Earthing Pit
+		\item TLV= Threshold Limit Value
+		\item LEL= Lower Explosive Limit
+		\item UEL= Upper Explosive Limit
 	\end{itemize}
 	\section{Sanand Bottling Plant - Day 1 (13.08.2019)}
 	
 	\subsection{Introduction to Sanand LPG Bottling Plant - Salient Points}
 	\textit{Faculty: Shri. Joydev Ojha, DGM(P), Sanand BP}
-	\begin{figure*}
-		\centering
-		\includegraphics{lot_valve}
-		\caption{LOT Valve}
-		\label{lot_valve}
-	\end{figure*}
-	\begin{figure*}
-		\centering
-		\includegraphics{sc_valve}
-		\caption{SC Valve}
-		\label{sc_valve}
-	\end{figure*}
 	\begin{itemize}
 		\item Due to low land prices and government push, this particular bottling plant has much more space than what is required under the OISD guidelines.
 		\item In addition to that, there is a 66 acre buffer area which is not required anymore according to the latest OISD guidelines so, the plant "occupier" or location in charge Shri. Joydev Ojha, DGM(P) has decided to utilize it to benefit the corporation in the following ways:-
@@ -172,33 +165,12 @@
 		\item SRD (Stay Ring Defect) / FRD (Foot Ring Defect)
 	\end{itemize}
 	\end{itemize}
-	\begin{figure*}[h]
-		\includegraphics[width=\linewidth]{lpg_flow}
-		\caption{LPG filling process flow}
-		\label{lpg_flow}
-	\end{figure*}
+
 	
 	\section{Sanand Bottling Plant - Day 2 (14.08.2019)}
 	\subsection{Electrical Systems - Salient Points}
 	\textit{Faculty: Shri. Prakash Chand Meena, OO(P), Sanand BP}\\
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=\linewidth]{bp_singlelinediag}
-		\caption{Basic single line diagram of a bottling plant electrical distribution system}
-		\label{bp_singlelinediag}
-	\end{figure}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.5\linewidth]{sfu}
-		\caption{Schematic diagram of a Switch Fuse Unit}
-		\label{sfu}
-	\end{figure}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.5\linewidth]{dc_distribution}
-		\caption{Schematic diagram of a Switch Fuse Unit}
-		\label{dc_distribution}
-	\end{figure}
+
 	With respect to Fig \ref{bp_singlelinediag}, the following points should be noted:-
 	\begin{itemize}
 		\item VCB1 monitors the following - voltage, power factor, frequency, current and has ratings as defined in Table \ref{vcb1_nameplate}
@@ -220,99 +192,25 @@
 		\end{itemize}
 		\item There are 3 types of earthing present in a bottling plant (or any industrial facility for that matter) - Neutral Earthing (for DG and TF), Lightning Earthing (for Buildings and other structures), Body Earthing (for every electrical equipment in the plant and 2 point earthing if operating voltage is more than 250 Volts). The earthing schemes as per OISD regulations are roughly described in Fig \ref{bp_earthing}
 	\end{itemize}
-	\begin{table}[]
-		\centering
-		\begin{tabular}{@{}lll@{}}
-			\toprule
-			\textbf{S. No.} & \textbf{SPECIFICATION}   & \textbf{VALUE}    \\ \midrule
-			1               & TYPE                     & VK 10J20          \\
-			2               & SERIAL NUMBER            & 2639              \\
-			3               & YEAR                     & 1995              \\
-			4               & STANDARD                 & IS:13118 / IEC-56 \\
-			5               & RATED FREQUENCY          & 50 Hz             \\
-			6               & RATED VOLTAGE            & 12 kV             \\
-			7               & RATED CURRENT            & 630               \\
-			8               & Ins.LEVEL Imp.           & 75 kVp;P.F.28 kV  \\
-			9               & RATED BREAKING CURRENT   & 20 kA             \\
-			10              & RATED MAKING CURRENT     & 50 A (Peak)       \\
-			11              & SUPPLY VOLTAGE CLOSING   & 110 V DC          \\
-			12              & SUPPLY VOLTAGE TRIPPING  & 110 V DC          \\
-			13              & RATED SHORT TIME CURRENT & 20 kA ( 3 secs)   \\
-			14              & WEIGHT OF BREAKER        & 70 kg             \\ \bottomrule
-		\end{tabular}
-		\caption{VCB1 technical specifications made in technical collaboration with Toshiba Japan}
-		\label{vcb1_nameplate}
-	\end{table}
-	\begin{table}[]
-		\centering
-		\begin{tabular}{@{}lll@{}}
-			\toprule
-			\textbf{S. No.} & \textbf{Specification}       & \textbf{Value}             \\ \midrule
-			1               & Specification                & IS 2028                    \\
-			2               & Phase                        & 3                          \\
-			3               & Frequency                    & 50Hz                       \\
-			4               & Ambient Temperature          & 45 Degree C                \\
-			5               & Max Temperature Allowed      & 55 Degree C                \\
-			6               & Primary Winding              & 433 Volts +2.5\%+5\% DELTA \\
-			7               & Secondary Winding            & 433 Volts STAR             \\
-			8               & Primary Vpeak or Amplitude   & 266.67 Volts               \\
-			9               & Secondary Vpeak or Amplitude & 266.67 Volts               \\
-			10              & Impedance Volts              & 4.62\%                     \\
-			11              & Oil                          & 330 l                      \\
-			12              & Vector Group Ref.            & Dyn11                      \\
-			13              & Cooling                      & ON/AN                      \\
-			14              & KVol                         & 200                        \\
-			15              & Insulation Class             & A                          \\
-			16              & Type                         & DW                         \\
-			17              & Weight                       & 1110 kg                    \\
-			18              & Serial Number                & ABY-1-9                    \\ \bottomrule
-		\end{tabular}
-		\caption{Data card for the Isolation Transformer for the lighting equipment as mentioned in Fig \ref{bp_singlelinediag}}
-		\label{sanand_isolation_tf_datacard}
-	\end{table}
-	\begin{table}[]
-		\centering
-		\begin{tabular}{@{}lll@{}}
-			\toprule
-			\textbf{S. No.} & \textbf{Specifications}                                                 & \textbf{Value}                                      \\ \midrule
-			1               & Standard                                                                & IS 2026-1977                                        \\
-			2               & kVA Rating                                                              & \begin{tabular}[c]{@{}l@{}}1000\\  kVA\end{tabular} \\
-			3               & HV Voltage Rating (No Load)                                             & 11000 Volts                                         \\
-			4               & LV Voltage Rating (No Load)                                             & 433 Volts                                           \\
-			5               & HV Current Rating                                                       & 52.5 A                                              \\
-			6               & LV Current Rating                                                       & 1333 A                                              \\
-			7               & No. of phases at HV and LV                                              & 3                                                   \\
-			8               & Type of Cooling                                                         & ONAN                                                \\
-			9               & Impedance Volts                                                         & 4.13\%                                              \\
-			10              & Vector Group Reference                                                  & Dyn 11                                              \\
-			11              & Core and Windings Weight                                                & 1520 kg                                             \\
-			12              & Oil Weight                                                              & 740 kg                                              \\
-			13              & Total Weight                                                            & 3260 kg                                             \\
-			14              & Oil Quantity                                                            & 770 litres                                          \\
-			15              & Year of Manufacture                                                     & 1995                                                \\
-			16              & \begin{tabular}[c]{@{}l@{}}Max Temp Rise of Oil\\  and Wdg\end{tabular} & 55 degrees C                                        \\
-			17              & Insulation Level                                                        & LI 75 AC 28/LI AC-3                                 \\ \bottomrule
-		\end{tabular}
-	\caption{Datacard for the main step down transformer connected to the Electricity Board in Fig \ref{bp_singlelinediag}}
-	\label{sanand_stepdown_tf_datacard}
-	\end{table}
-	\begin{figure}
-		\centering
-		\includegraphics[height=10cm]{inside_panel}
-		\caption{Inside view of a panel showing its safety features}
-		\label{inside_panel}
-	\end{figure}
-	\begin{figure}
-		\centering
-		\subfloat[][Neutral Earthing]{\includegraphics[height=5cm,width=5cm]{neutral_earthing}\label{neutral_earthing}}
-		\subfloat[][Lightning Earthing]{\includegraphics[height=5cm,width=5cm]{lightning_earthing}\label{lightning_earthing}}
-		\subfloat[][Body Earthing]{\includegraphics[height=5cm,width=5cm]{body_earthing}\label{body_earthing}}
-		\caption{Different types of earthing schemes}
-		\label{bp_earthing}
-	\end{figure}
+	
+	
 	\subsection{LPG Plant Safety - Salient Points}
 	\textit{Faculty: Shri. Umesh Malviya, OO(LPG-Safety), Sanand BP}\\
-	\ldots
+	\begin{itemize}
+		\item Safety is the freedom from injury, death and damage.
+		\item All accidents are preventable.
+		\item Incident = Something wrong happened but no one was harmed or no damage was done whatsover.
+		\item Near Miss = Some minor injury occurred or injury was just avoided.
+		\item Accident = Someone died and some major property damage has occurred.
+		\item Reasons for accidents are 88\% human error, 10\% unsafe condition and 2\% a combination of both.
+		\item The fire triangle consists of 3 things required for a fire - product, air (oxygen) and spark. Therefore, just by removing any one of the three, fire can be stopped. However, that is not always the case for compounds like \textbf{Ethylene Oxide} which itself consists of oxygen, therefore the only was to stop the fire is to cut the fuel out of the equation.
+		\item TLV for any chemical is a measure of how toxic it is to human beings. If the chemical concentration is more than the TLV then the max amount of time for which a person can operate in that environment without incurring serious damage is 8 hours. The TLV for LPG is 1000 ppm.
+		\item All equipments present inside the licensed area have to be PESO approved.
+		\item If the mixture of fuel and air is below LEL (1.9\% for LPG) then it will not burn due to lack of fuel and is considered ``too lean to burn", and if the mixture is above UEL then it will not burn due to lack of oxygen and is considered ``too rich to burn". Therefore, the danger lies when the concentration is between LEL and UEL.
+		\item Using a fire extinguisher (PASS) - \textbf{P}ull the pin, \textbf{A}im at the base of fire, \textbf{S}queeze the trigger and \textbf{S}weep.
+		\item There are 2 types of fire protection - Active and Passive Fire protection. Active fire protection is a group of systems that require some amount of action in order to work efficiently in the event of a fire eg. fire extinguishers, automatic sprinkler systems, alarms etc. Passive fire protection is a group of systems that compartmentalize a building through the use of fire-resistance rated walls and floors, keeping the fire from spreading quickly and providing time to escape for people in the building eg. fire doors,  photoluminescent egress path markers etc.
+		
+	\end{itemize}
 	
 	\section{Sanand Bottling Plant - Day 3 (16.08.2019)}
 	
@@ -344,4 +242,128 @@
 		\item[Why are LOT cylinders required?] Because Liquid Off Take (LOT) Cylinders have valves with pipes which go down to the lower part of the cylinder therefore, allowing it to draw liquid from the cylinder which may then be used to evaporate at a higher rate along with other LOT cylinders, thereby creating enough vapour for large burners, furnaces etc. Therefore, it is generally used for commercial/industrial purposes.
 		\item[What is the additive added to LPG in Nanocut cylinder and what parameter of the LPG does it change?] answer
 	\end{description}
+	\clearpage
+	\pagebreak
+	\section{Tables}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{@{}lll@{}}
+			\toprule
+			\textbf{S. No.} & \textbf{SPECIFICATION}   & \textbf{VALUE}    \\ \midrule
+			1               & TYPE                     & VK 10J20          \\
+			2               & SERIAL NUMBER            & 2639              \\
+			3               & YEAR                     & 1995              \\
+			4               & STANDARD                 & IS:13118 / IEC-56 \\
+			5               & RATED FREQUENCY          & 50 Hz             \\
+			6               & RATED VOLTAGE            & 12 kV             \\
+			7               & RATED CURRENT            & 630               \\
+			8               & Ins.LEVEL Imp.           & 75 kVp;P.F.28 kV  \\
+			9               & RATED BREAKING CURRENT   & 20 kA             \\
+			10              & RATED MAKING CURRENT     & 50 A (Peak)       \\
+			11              & SUPPLY VOLTAGE CLOSING   & 110 V DC          \\
+			12              & SUPPLY VOLTAGE TRIPPING  & 110 V DC          \\
+			13              & RATED SHORT TIME CURRENT & 20 kA ( 3 secs)   \\
+			14              & WEIGHT OF BREAKER        & 70 kg             \\ \bottomrule
+		\end{tabular}
+		\caption{VCB1 technical specifications made in technical collaboration with Toshiba Japan}
+		\label{vcb1_nameplate}
+	\end{table}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{@{}lll@{}}
+			\toprule
+			\textbf{S. No.} & \textbf{Specification}       & \textbf{Value}             \\ \midrule
+			1               & Specification                & IS 2028                    \\
+			2               & Phase                        & 3                          \\
+			3               & Frequency                    & 50Hz                       \\
+			4               & Ambient Temperature          & 45 Degree C                \\
+			5               & Max Temperature Allowed      & 55 Degree C                \\
+			6               & Primary Winding              & 433 Volts +2.5\%+5\% DELTA \\
+			7               & Secondary Winding            & 433 Volts STAR             \\
+			8               & Primary Vpeak or Amplitude   & 266.67 Volts               \\
+			9               & Secondary Vpeak or Amplitude & 266.67 Volts               \\
+			10              & Impedance Volts              & 4.62\%                     \\
+			11              & Oil                          & 330 l                      \\
+			12              & Vector Group Ref.            & Dyn11                      \\
+			13              & Cooling                      & ON/AN                      \\
+			14              & KVol                         & 200                        \\
+			15              & Insulation Class             & A                          \\
+			16              & Type                         & DW                         \\
+			17              & Weight                       & 1110 kg                    \\
+			18              & Serial Number                & ABY-1-9                    \\ \bottomrule
+		\end{tabular}
+		\caption{Data card for the Isolation Transformer for the lighting equipment as mentioned in Fig \ref{bp_singlelinediag}}
+		\label{sanand_isolation_tf_datacard}
+	\end{table}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{@{}lll@{}}
+			\toprule
+			\textbf{S. No.} & \textbf{Specifications}                                                 & \textbf{Value}                                      \\ \midrule
+			1               & Standard                                                                & IS 2026-1977                                        \\
+			2               & kVA Rating                                                              & \begin{tabular}[c]{@{}l@{}}1000\\  kVA\end{tabular} \\
+			3               & HV Voltage Rating (No Load)                                             & 11000 Volts                                         \\
+			4               & LV Voltage Rating (No Load)                                             & 433 Volts                                           \\
+			5               & HV Current Rating                                                       & 52.5 A                                              \\
+			6               & LV Current Rating                                                       & 1333 A                                              \\
+			7               & No. of phases at HV and LV                                              & 3                                                   \\
+			8               & Type of Cooling                                                         & ONAN                                                \\
+			9               & Impedance Volts                                                         & 4.13\%                                              \\
+			10              & Vector Group Reference                                                  & Dyn 11                                              \\
+			11              & Core and Windings Weight                                                & 1520 kg                                             \\
+			12              & Oil Weight                                                              & 740 kg                                              \\
+			13              & Total Weight                                                            & 3260 kg                                             \\
+			14              & Oil Quantity                                                            & 770 litres                                          \\
+			15              & Year of Manufacture                                                     & 1995                                                \\
+			16              & \begin{tabular}[c]{@{}l@{}}Max Temp Rise of Oil\\  and Wdg\end{tabular} & 55 degrees C                                        \\
+			17              & Insulation Level                                                        & LI 75 AC 28/LI AC-3                                 \\ \bottomrule
+		\end{tabular}
+		\caption{Datacard for the main step down transformer connected to the Electricity Board in Fig \ref{bp_singlelinediag}}
+		\label{sanand_stepdown_tf_datacard}
+	\end{table}
+	
+	\clearpage
+	\pagebreak
+	\section{Figures}
+	\begin{figure}[h]
+		\centering
+		\subfloat[][LOT Valve]{\includegraphics[height=5cm,width=5cm]{lot_valve}\label{lot_valve}}
+		\subfloat[][SC Valve]{\includegraphics[height=5cm,width=5cm]{sc_valve}\label{sc_valve}}
+		\caption{Types of valves attached to LPG cylinders}
+		\label{lpg_valves}
+	\end{figure}
+	\begin{figure}[h]
+		\includegraphics[width=\linewidth]{lpg_flow}
+		\caption{LPG filling process flow}
+		\label{lpg_flow}
+	\end{figure}
+		\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{bp_singlelinediag}
+		\caption{Basic single line diagram of a bottling plant electrical distribution system}
+		\label{bp_singlelinediag}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\subfloat[][Schematic diagram of a Switch Fuse Unit]{\includegraphics[width=0.5\linewidth]{sfu}\label{sfu}}
+		\subfloat[][Inside view of a panel showing its safety features]{\includegraphics[height=10cm,width=0.5\linewidth]{inside_panel}\label{inside_panel}}
+		\caption{Theoretical and real panel equipment protection apparatus}
+		\label{bp_panel}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\subfloat[Schematic diagram of the dc power delivery system]{\includegraphics[width=0.5\linewidth]{dc_distribution}\label{dc_distribution}}
+		\subfloat[Schematic diagram of the dc power delivery system]{\includegraphics[height=10cm]{battery_pack_sanand}\label{battery_pack_sanand}}
+		\caption{DC power delivery system}
+		\label{dc_power_sanand}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\subfloat[][Neutral Earthing]{\includegraphics[height=10cm,width=0.33\linewidth]{neutral_earthing}\label{neutral_earthing}}
+		\subfloat[][Lightning Earthing]{\includegraphics[height=10cm,width=0.33\linewidth]{lightning_earthing}\label{lightning_earthing}}
+		\subfloat[][Body Earthing]{\includegraphics[height=10cm,width=0.33\linewidth]{body_earthing}\label{body_earthing}}
+		\caption{Different types of earthing schemes}
+		\label{bp_earthing}
+	\end{figure}
+	
 \end{document}

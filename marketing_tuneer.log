@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.4.10)  28 AUG 2019 20:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.4.10)  28 AUG 2019 21:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -749,6 +749,13 @@ th.
 \MDopostkern=\muskip19
 \MDodotkern=\muskip20
 )
+(/usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
+\beforeepigraphskip=\skip72
+\afterepigraphskip=\skip73
+\epigraphwidth=\skip74
+\epigraphrule=\skip75
+)
 (/usr/share/texlive/texmf-dist/tex/latex/yhmath/yhmath.sty
 Package: yhmath 2019/02/24 v1.5
 \symyhlargesymbols=\mathgroup4
@@ -796,9 +803,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
-\multirow@colwidth=\skip72
+\multirow@colwidth=\skip76
 \multirow@cntb=\count314
-\multirow@dima=\skip73
+\multirow@dima=\skip77
 \bigstrutjot=\dimen289
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -859,18 +866,18 @@ Writing index file marketing_tuneer.idx
 (./marketing_tuneer.aux)
 \openout1 = `marketing_tuneer.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -906,7 +913,7 @@ LaTeX Font Info:    ... okay on input line 29.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 29.
+LaTeX Info: Redefining \microtypecontext on input line 30.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1066,25 +1073,25 @@ Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \celsius on input line 29.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 29.
+LaTeX Info: Redefining \celsius on input line 30.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 30.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 29.
-Package gensymb Info: Using \Omega for \ohm on input line 29.
+LaTeX Info: Redefining \ohm on input line 30.
+Package gensymb Info: Using \Omega for \ohm on input line 30.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Font Info:    Try loading font information for OMX+yhex on input line 29.
+LaTeX Font Info:    Try loading font information for OMX+yhex on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/yhmath/OMXyhex.fd
 File: OMXyhex.fd 
 File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1092,7 +1099,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1118,125 +1125,137 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 36.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
-<./images/lot_valve.png, id=41, 105.39375pt x 409.53pt>
-File: ./images/lot_valve.png Graphic file (type png)
-<use ./images/lot_valve.png>
-Package pdftex.def Info: ./images/lot_valve.png  used on input line 61.
-(pdftex.def)             Requested size: 105.39348pt x 409.52899pt.
-<./images/sc_valve.jpg, id=43, 96.36pt x 96.36pt>
-File: ./images/sc_valve.jpg Graphic file (type jpg)
-<use ./images/sc_valve.jpg>
-Package pdftex.def Info: ./images/sc_valve.jpg  used on input line 67.
-(pdftex.def)             Requested size: 96.35974pt x 96.35974pt.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
  [2
 
-] [3 <./images/lot_valve.png> <./images/sc_valve.JPG>]
-<./images/lpg_flow.jpg, id=54, 1073.00874pt x 537.00626pt>
-File: ./images/lpg_flow.jpg Graphic file (type jpg)
-<use ./images/lpg_flow.jpg>
-Package pdftex.def Info: ./images/lpg_flow.jpg  used on input line 176.
-(pdftex.def)             Requested size: 528.93675pt x 264.71681pt.
+] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
-<./images/bp_singlelinediag.jpg, id=55, 4312.11pt x 2581.645pt>
-File: ./images/bp_singlelinediag.jpg Graphic file (type jpg)
-<use ./images/bp_singlelinediag.jpg>
-Package pdftex.def Info: ./images/bp_singlelinediag.jpg  used on input line 186
-.
-(pdftex.def)             Requested size: 528.93675pt x 316.63837pt.
-<./images/sfu.jpg, id=56, 4111.36pt x 3392.675pt>
-File: ./images/sfu.jpg Graphic file (type jpg)
-<use ./images/sfu.jpg>
-Package pdftex.def Info: ./images/sfu.jpg  used on input line 192.
-(pdftex.def)             Requested size: 264.46837pt x 218.20206pt.
-<./images/dc_distribution.jpg, id=57, 4211.735pt x 3115.64pt>
-File: ./images/dc_distribution.jpg Graphic file (type jpg)
-<use ./images/dc_distribution.jpg>
-Package pdftex.def Info: ./images/dc_distribution.jpg  used on input line 198.
-(pdftex.def)             Requested size: 264.46837pt x 195.6303pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+ []
 
 [4]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 223.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 246.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 273.
-
-<./images/inside_panel.jpg, id=62, 1530.46782pt x 2482.77562pt>
-File: ./images/inside_panel.jpg Graphic file (type jpg)
-<use ./images/inside_panel.jpg>
-Package pdftex.def Info: ./images/inside_panel.jpg  used on input line 301.
-(pdftex.def)             Requested size: 175.38124pt x 284.52756pt.
-<./images/neutral_earthing.jpg, id=63, 2686.035pt x 3766.07pt>
-File: ./images/neutral_earthing.jpg Graphic file (type jpg)
-<use ./images/neutral_earthing.jpg>
-Package pdftex.def Info: ./images/neutral_earthing.jpg  used on input line 307.
-
-(pdftex.def)             Requested size: 142.2608pt x 142.22717pt.
-<./images/lightning_earthing.jpg, id=64, 3982.88pt x 2938.98pt>
-File: ./images/lightning_earthing.jpg Graphic file (type jpg)
-<use ./images/lightning_earthing.jpg>
-Package pdftex.def Info: ./images/lightning_earthing.jpg  used on input line 30
-8.
-(pdftex.def)             Requested size: 142.21063pt x 142.24886pt.
-<./images/body_earthing.jpg, id=65, 3641.605pt x 3284.27pt>
-File: ./images/body_earthing.jpg Graphic file (type jpg)
-<use ./images/body_earthing.jpg>
-Package pdftex.def Info: ./images/body_earthing.jpg  used on input line 309.
-(pdftex.def)             Requested size: 142.24985pt x 142.22313pt.
-[5 <./images/lpg_flow.jpg>] [6 <./images/bp_singlelinediag.jpg>] [7 <./images/s
-fu.jpg> <./images/dc_distribution.jpg>]
-Overfull \hbox (9.85785pt too wide) in paragraph at lines 345--346
+Overfull \hbox (9.85785pt too wide) in paragraph at lines 242--243
 []\OT1/cmr/m/n/10/-25ls (-50) answer 
  []
 
-[8] [9 <./images/inside_panel.jpg> <./images/neutral_earthing.jpg> <./images/li
-ghtning_earthing.jpg> <./images/body_earthing.jpg>] (./marketing_tuneer.aux) ) 
+[5]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6
+
+] [7]
+<./images/lot_valve.png, id=64, 105.39375pt x 409.53pt>
+File: ./images/lot_valve.png Graphic file (type png)
+<use ./images/lot_valve.png>
+Package pdftex.def Info: ./images/lot_valve.png  used on input line 329.
+(pdftex.def)             Requested size: 142.26736pt x 142.26283pt.
+<./images/sc_valve.jpg, id=66, 96.36pt x 96.36pt>
+File: ./images/sc_valve.jpg Graphic file (type jpg)
+<use ./images/sc_valve.jpg>
+Package pdftex.def Info: ./images/sc_valve.jpg  used on input line 330.
+(pdftex.def)             Requested size: 142.26353pt x 142.26353pt.
+<./images/lpg_flow.jpg, id=67, 1073.00874pt x 537.00626pt>
+File: ./images/lpg_flow.jpg Graphic file (type jpg)
+<use ./images/lpg_flow.jpg>
+Package pdftex.def Info: ./images/lpg_flow.jpg  used on input line 335.
+(pdftex.def)             Requested size: 528.93675pt x 264.71681pt.
+<./images/bp_singlelinediag.jpg, id=68, 4312.11pt x 2581.645pt>
+File: ./images/bp_singlelinediag.jpg Graphic file (type jpg)
+<use ./images/bp_singlelinediag.jpg>
+Package pdftex.def Info: ./images/bp_singlelinediag.jpg  used on input line 341
+.
+(pdftex.def)             Requested size: 528.93675pt x 316.63837pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images/sfu.jpg, id=69, 4111.36pt x 3392.675pt>
+File: ./images/sfu.jpg Graphic file (type jpg)
+<use ./images/sfu.jpg>
+Package pdftex.def Info: ./images/sfu.jpg  used on input line 347.
+(pdftex.def)             Requested size: 264.46837pt x 218.20206pt.
+<./images/inside_panel.jpg, id=70, 1530.46782pt x 2482.77562pt>
+File: ./images/inside_panel.jpg Graphic file (type jpg)
+<use ./images/inside_panel.jpg>
+Package pdftex.def Info: ./images/inside_panel.jpg  used on input line 348.
+(pdftex.def)             Requested size: 264.44969pt x 284.50926pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images/dc_distribution.jpg, id=71, 4211.735pt x 3115.64pt>
+File: ./images/dc_distribution.jpg Graphic file (type jpg)
+<use ./images/dc_distribution.jpg>
+Package pdftex.def Info: ./images/dc_distribution.jpg  used on input line 354.
+(pdftex.def)             Requested size: 264.46837pt x 195.6303pt.
+<./images/battery_pack_sanand.jpg, id=72, 2119.92pt x 3022.29124pt>
+File: ./images/battery_pack_sanand.jpg Graphic file (type jpg)
+<use ./images/battery_pack_sanand.jpg>
+Package pdftex.def Info: ./images/battery_pack_sanand.jpg  used on input line 3
+55.
+(pdftex.def)             Requested size: 199.55069pt x 284.52756pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images/neutral_earthing.jpg, id=73, 2686.035pt x 3766.07pt>
+File: ./images/neutral_earthing.jpg Graphic file (type jpg)
+<use ./images/neutral_earthing.jpg>
+Package pdftex.def Info: ./images/neutral_earthing.jpg  used on input line 361.
+
+(pdftex.def)             Requested size: 174.51643pt x 284.51183pt.
+<./images/lightning_earthing.jpg, id=74, 3982.88pt x 2938.98pt>
+File: ./images/lightning_earthing.jpg Graphic file (type jpg)
+<use ./images/lightning_earthing.jpg>
+Package pdftex.def Info: ./images/lightning_earthing.jpg  used on input line 36
+2.
+(pdftex.def)             Requested size: 174.54228pt x 284.49773pt.
+<./images/body_earthing.jpg, id=75, 3641.605pt x 3284.27pt>
+File: ./images/body_earthing.jpg Graphic file (type jpg)
+<use ./images/body_earthing.jpg>
+Package pdftex.def Info: ./images/body_earthing.jpg  used on input line 363.
+(pdftex.def)             Requested size: 174.53389pt x 284.49638pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8
+
+ <./images/lot_valve.png> <./images/sc_valve.JPG> <./images/lpg_flow.jpg>]
+[9 <./images/bp_singlelinediag.jpg> <./images/sfu.jpg> <./images/inside_panel.j
+pg>] [10 <./images/dc_distribution.jpg> <./images/battery_pack_sanand.jpg> <./i
+mages/neutral_earthing.jpg> <./images/lightning_earthing.jpg> <./images/body_ea
+rthing.jpg>] (./marketing_tuneer.aux) ) 
 Here is how much of TeX's memory you used:
- 29461 strings out of 494484
- 586698 string characters out of 6175786
- 636304 words of memory out of 5000000
- 32579 multiletter control sequences out of 15000+600000
- 563125 words of font info for 166 fonts, out of 8000000 for 9000
+ 29537 strings out of 494484
+ 587872 string characters out of 6175786
+ 630439 words of memory out of 5000000
+ 32632 multiletter control sequences out of 15000+600000
+ 563737 words of font info for 178 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 61i,14n,96p,592b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
-<
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti10.pfb>
-Output written on marketing_tuneer.pdf (10 pages, 5743971 bytes).
+ 61i,14n,96p,624b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on marketing_tuneer.pdf (11 pages, 9685147 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 120 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 55455 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 55460 words of extra memory for PDF output out of 61914 (max. 10000000)
 
