@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.4.10)  1 SEP 2019 12:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.4.10)  1 SEP 2019 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1261,19 +1261,19 @@ Chapter 2.
 <./images/interface_cutting.png, id=104, 771.88374pt x 268.00125pt>
 File: ./images/interface_cutting.png Graphic file (type png)
 <use ./images/interface_cutting.png>
-Package pdftex.def Info: ./images/interface_cutting.png  used on input line 496
+Package pdftex.def Info: ./images/interface_cutting.png  used on input line 521
 .
 (pdftex.def)             Requested size: 528.93675pt x 183.64926pt.
 <./images/bareja_tank_farm.png, id=105, 737.75626pt x 423.5825pt>
 File: ./images/bareja_tank_farm.png Graphic file (type png)
 <use ./images/bareja_tank_farm.png>
-Package pdftex.def Info: ./images/bareja_tank_farm.png  used on input line 502.
+Package pdftex.def Info: ./images/bareja_tank_farm.png  used on input line 527.
 
 (pdftex.def)             Requested size: 528.93675pt x 303.6865pt.
 <./images/tank_modes.png, id=106, 863.225pt x 306.14375pt>
 File: ./images/tank_modes.png Graphic file (type png)
 <use ./images/tank_modes.png>
-Package pdftex.def Info: ./images/tank_modes.png  used on input line 508.
+Package pdftex.def Info: ./images/tank_modes.png  used on input line 533.
 (pdftex.def)             Requested size: 528.93675pt x 187.59293pt.
 
 
@@ -1282,7 +1282,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/tank_alarms.png, id=107, 631.35875pt x 264.99pt>
 File: ./images/tank_alarms.png Graphic file (type png)
 <use ./images/tank_alarms.png>
-Package pdftex.def Info: ./images/tank_alarms.png  used on input line 514.
+Package pdftex.def Info: ./images/tank_alarms.png  used on input line 539.
 (pdftex.def)             Requested size: 528.93675pt x 222.01591pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1290,38 +1290,72 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/tank_valves.png, id=108, 741.77126pt x 308.15125pt>
 File: ./images/tank_valves.png Graphic file (type png)
 <use ./images/tank_valves.png>
-Package pdftex.def Info: ./images/tank_valves.png  used on input line 520.
-(pdftex.def)             Requested size: 528.93675pt x 219.73871pt.
+Package pdftex.def Info: ./images/tank_valves.png  used on input line 545.
+(pdftex.def)             Requested size: 528.94762pt x 142.2638pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images/tlf_flow.jpg, id=109, 747.79375pt x 213.79875pt>
+File: ./images/tlf_flow.jpg Graphic file (type jpg)
+<use ./images/tlf_flow.jpg>
+Package pdftex.def Info: ./images/tlf_flow.jpg  used on input line 551.
+(pdftex.def)             Requested size: 528.93675pt x 151.23378pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images/filling_flow.jpg, id=110, 895.345pt x 498.86375pt>
+File: ./images/filling_flow.jpg Graphic file (type jpg)
+<use ./images/filling_flow.jpg>
+Package pdftex.def Info: ./images/filling_flow.jpg  used on input line 557.
+(pdftex.def)             Requested size: 528.93675pt x 294.71527pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16
 
  <./images/interface_cutting.png> <./images/bareja_tank_farm.png>] [17 <./image
-s/tank_modes.png> <./images/tank_alarms.png>] [18 <./images/tank_valves.png>] (
-./marketing_tuneer.aux) ) 
+s/tank_modes.png> <./images/tank_alarms.png> <./images/tank_valves.png>]
+[18 <./images/tlf_flow.jpg> <./images/filling_flow.jpg>]
+<./images/distribution_flow.jpg, id=126, 1578.89874pt x 745.78625pt>
+File: ./images/distribution_flow.jpg Graphic file (type jpg)
+<use ./images/distribution_flow.jpg>
+Package pdftex.def Info: ./images/distribution_flow.jpg  used on input line 565
+.
+(pdftex.def)             Requested size: 701.00066pt x 331.11708pt.
+ [19
+
+ <./images/distribution_flow.jpg>]
+<./images/bareja_quality_flow.png, id=130, 830.10126pt x 297.11pt>
+File: ./images/bareja_quality_flow.png Graphic file (type png)
+<use ./images/bareja_quality_flow.png>
+Package pdftex.def Info: ./images/bareja_quality_flow.png  used on input line 5
+73.
+(pdftex.def)             Requested size: 528.93675pt x 189.32465pt.
+ [20
+
+ <./images/bareja_quality_flow.png>] (./marketing_tuneer.aux) ) 
 Here is how much of TeX's memory you used:
- 29598 strings out of 494484
- 589046 string characters out of 6175786
- 630520 words of memory out of 5000000
- 32663 multiletter control sequences out of 15000+600000
+ 29622 strings out of 494484
+ 589690 string characters out of 6175786
+ 630564 words of memory out of 5000000
+ 32683 multiletter control sequences out of 15000+600000
  564553 words of font info for 194 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 61i,14n,96p,624b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on marketing_tuneer.pdf (19 pages, 9886216 bytes).
+ 61i,14n,96p,624b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on marketing_tuneer.pdf (21 pages, 10102012 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 168 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 55490 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 55510 words of extra memory for PDF output out of 61914 (max. 10000000)
 

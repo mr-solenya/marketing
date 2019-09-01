@@ -22,7 +22,9 @@
 \contentsline {section}{\numberline {2.2}Operations}{13}% 
 \contentsline {subsection}{\numberline {2.2.1}Receipt}{13}% 
 \contentsline {subsection}{\numberline {2.2.2}Storage}{13}% 
-\contentsline {section}{\numberline {2.3}Safety and Maintenance}{13}% 
+\contentsline {subsection}{\numberline {2.2.3}Dispatch}{14}% 
+\contentsline {subsection}{\numberline {2.2.4}Quality}{14}% 
+\contentsline {section}{\numberline {2.3}Safety and Maintenance}{14}% 
 \contentsline {section}{\numberline {2.4}FAQs}{14}% 
 \contentsline {section}{\numberline {2.5}Tables}{15}% 
 \contentsline {section}{\numberline {2.6}Figures}{16}% 

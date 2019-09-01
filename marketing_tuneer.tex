@@ -419,7 +419,12 @@
 \chapter{Bareja Terminal}
 	\section{Important Terms and Abbreviations}
 	\begin{itemize}
-		\item 
+		\item ROSOV = Remotely Operated Shut Off Valve
+		\item DBBV = Double Block and Bleed Valve
+		\item COCO = Company Owned and Company Operated
+		\item PD Meter = Positive Displacement Meter
+		\item DCV = Digital Control Valve
+		\item BCU = Batch Control Unit
 	\end{itemize}
 	\section{Operations}
 	Operations at Bareja Terminal consists of the following things:-
@@ -464,11 +469,31 @@
 		\item There are alarms for overfilling and underfilling of tanks, the details about which can be easily understood from Fig \ref{tank_alarms}.
 		\item There are various valves attached to the inlet and the outlet of the tanks which can be seen in Fig \ref{tank_valves}. It is important to note here that the ROSOV can only be shutoff remotely but has to be turned on manually whereas the DBBV can be shutoff and turned on remotely and in case of loss of power, the ROSOV closes automatically. This is done, so that when someone manually opens the ROSOV, then that person can check the surroundings for any hazards before doing so.
 	\end{itemize}
+	\subsection{Dispatch}
+	\begin{itemize}
+		\item There are 2 types of customers - Retail Outlets, Bulk Consumers
+		\item It is to be noted that product given to COCO ROs and AFS are treated as stock transfer rather than sale.
+		\item Dispatch is done via tank trucks which can be - dealer owned, transporter owned and consortium owned.
+		\item The demand sensing or indenting is done via sms or web indenting.
+		\item ATF has dedicated tankers which is coated internally with epicoating to prevent chemical reaction with the tanker metal thereby contaminating it.
+		\item The following is the priority list of the customers while dipatching loads to it - 
+		\begin{enumerate}
+			\item Consumer sales
+			\item Priority dealers 
+			\item COCO
+			\item Non Priority dealers
+		\end{enumerate}
+		\item The complete flow of the TT coming in empty and leaving the automated terminal can be seen in Fig \ref{distribution_flow}.
+		\item The filling of the TT can be further maginified to a process flow as seen in Fig \ref{filling_flow}.
+		\item The instruments used to automatically fill the TTs along with their order of operation is shown in Fig \ref{tlf_flow}. The PD meter (sensor) supplies information to the BCU which then sends the open or close signal to the DCV (actuator). The DCV can either be open or close, anything in between is achieved by repeatedly turning the valve ON and OFF.
+	\end{itemize}
+	\subsection{Quality}
+	The various stages at which quality checks are done can be seen in Fig \ref{bareja_quality_flow}.
 	\section{Safety and Maintenance}
 	\ldots
 	\section{FAQs}
 	\begin{description}
-		\item[question] answer
+		\item[What is the requirement of LL and LLL alarm?] 
 	\end{description}
 	\clearpage
 	\pagebreak
@@ -517,8 +542,36 @@
 	\end{figure}
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=\linewidth]{tank_valves}
+		\includegraphics[width=\linewidth,height=5cm]{tank_valves}
 		\caption{Valves attached to a tank}
 		\label{tank_valves}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{tlf_flow}
+		\caption{Equipments and process flow enabling the completely automatic filling of TTs}
+		\label{tlf_flow}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{filling_flow}
+		\caption{The TLF process flow (magnified to the filling part)}
+		\label{filling_flow}
+	\end{figure}
+	\pagebreak
+	\begin{landscape}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=\linewidth]{distribution_flow}
+			\caption{The complete TLF process flow}
+			\label{distribution_flow}
+		\end{figure}
+	\end{landscape}
+	\pagebreak
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{bareja_quality_flow}
+		\caption{Quality flow at Bareja terminal}
+		\label{bareja_quality_flow}
 	\end{figure}
 \end{document}
