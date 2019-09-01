@@ -422,7 +422,48 @@
 		\item 
 	\end{itemize}
 	\section{Operations}
-	\ldots
+	Operations at Bareja Terminal consists of the following things:-
+	\begin{itemize}
+		\item Receipt
+		\item Storage
+		\item Dispatch
+		\item Quality
+	\end{itemize}
+	Each of these are described in further detail below.
+	\subsection{Receipt}
+	Bareja terminal receives product via 2 pipelines:-
+	\begin{itemize}
+		\item KSPL (Koyali- Sanganer Pipe Line) = Multiproduct pipeline tapped at Ahmedabad
+		\item KAPL (Koyali- Ahmedabad Pipe Line) = Dedicated ATF pipeline which supplies the whole of Gujarat and parts of Rajasthan.
+	\end{itemize}
+	Then interface cutting (See Fig \ref{interface_cutting})is done by the pipelines division at the exchange pit and supplied to the terminal via pipelines. 
+	\subsection{Storage}
+	\begin{itemize}
+		\item Tank farm at bareja terminal can be represented by Fig \ref{bareja_tank_farm}.
+		\item The storage capacities of the aforementioned tanks can be realized by Table \ref{bareja_tank_cap}.
+		\item Tanks are classified in 3 ways - 
+		\begin{itemize}
+			\item Underground and Aboveground tanks
+			\item Floating roof tanks and cone roof tanks
+			\item Horizontal and Vertical tanks
+		\end{itemize}
+		\item Floating roof tanks are used to store class A products such as MS, which are very volatile thereby prone to vapor loss. The floating roof of the tank floats just over the product thereby not giving any space for vapor to form.
+		\item A floating roof tank has the following attachments to its roof with their specific purpose -
+		\begin{itemize}
+			\item Articulated Vent - to remove water stored on roof by rain or foam pouring drills etc.
+			\item Primary seal - Metal (aluminum) clamps sealing the product in.
+			\item Secondary seal - Secondary line of defense from product leakage and provides weather protection to the primary seal.
+			\item Stands - So the floating roof doesn't touch the bottom of the tank when tank is emptied for cleaning or maintenance purposes (6ft length).
+			\item Auto-bleeder valve - Leg length a bit longer than the stand and open cap on other side. This opens the valve when the floating roof lowers beyond a point thereby stopping vacuum locking.  
+			\item For safety there are foam pourers and foam dams to direct foam towards the secondary seal which is most prone to product leakage and fire.
+			\item There are automatically triggered (by the rate of increase of temperature) foam pourers which pour foam directly over the primary seal in case of an emergency.
+		\end{itemize}
+		\item The bottom of any tank has a central sump to collect any water that has infiltrated the system and a water draw off line to drain that water.
+		\item The sand pad that forms the base of the tank should - have no cracks, have no vegetation since roots crack the base even further.
+		\item A tank can be either of the 3 modes - Receipt, Dispatch and Dormant. (See Fig \ref{tank_modes})
+		\item There are alarms for overfilling and underfilling of tanks, the details about which can be easily understood from Fig \ref{tank_alarms}.
+		\item There are various valves attached to the inlet and the outlet of the tanks which can be seen in Fig \ref{tank_valves}. It is important to note here that the ROSOV can only be shutoff remotely but has to be turned on manually whereas the DBBV can be shutoff and turned on remotely and in case of loss of power, the ROSOV closes automatically. This is done, so that when someone manually opens the ROSOV, then that person can check the surroundings for any hazards before doing so.
+	\end{itemize}
 	\section{Safety and Maintenance}
 	\ldots
 	\section{FAQs}
@@ -432,9 +473,52 @@
 	\clearpage
 	\pagebreak
 	\section{Tables}
-	\ldots
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{@{}llll@{}}
+			\toprule
+			\textbf{Storage Tank} & \textbf{Quantity} & \textbf{Level Filled (kL)} & \textbf{Tank Diameter (m)} \\ \midrule
+			MS                    & 3                 & 8300                       & 24                         \\
+			HSD                   & 4                 & 11000                      & 32                         \\
+			ATF                   & 2                 & 6300                       & 28                         \\
+			SKO                   & 2                 & 3300                       & 18                         \\
+			Ethanol               & 2                 & 70                         &                            \\
+			Water                 & 3                 & 2600/5200                  &                            \\ \bottomrule
+		\end{tabular}
+	\caption{Tank Capacities \& Storing Limit}
+	\label{bareja_tank_cap}
+	\end{table}
 	\clearpage
 	\pagebreak
 	\section{Figures}
-	\ldots
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{interface_cutting}
+		\caption{Interface cutting norms}
+		\label{interface_cutting}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{bareja_tank_farm}
+		\caption{Pictorial representation of the storage tanks present at the Bareja terminal}
+		\label{bareja_tank_farm}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{tank_modes}
+		\caption{Modes of operation of tanks}
+		\label{tank_modes}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{tank_alarms}
+		\caption{Alarms to prevent over filling or over emptying a tank}
+		\label{tank_alarms}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{tank_valves}
+		\caption{Valves attached to a tank}
+		\label{tank_valves}
+	\end{figure}
 \end{document}
