@@ -28,3 +28,9 @@
 \contentsline {section}{\numberline {2.4}FAQs}{14}% 
 \contentsline {section}{\numberline {2.5}Tables}{15}% 
 \contentsline {section}{\numberline {2.6}Figures}{16}% 
+\contentsline {chapter}{\numberline {3}LPG Distributorship}{21}% 
+\contentsline {chapter}{\numberline {4}Gujarat Refinery}{22}% 
+\contentsline {section}{\numberline {4.1}Important Terms and Abbreviations}{22}% 
+\contentsline {section}{\numberline {4.2}Salient points about Gujarat Refinery}{22}% 
+\contentsline {section}{\numberline {4.3}Sulphur removal from fuel}{22}% 
+\contentsline {section}{\numberline {4.4}Figures}{23}% 

@@ -1,6 +1,7 @@
 \documentclass{report}
 \usepackage[extreme]{savetrees}
 \usepackage{wrapfig}
+\usepackage{chemformula}
 \usepackage{graphicx}
 \graphicspath{{./images/}}
 \usepackage{amsthm}
@@ -611,5 +612,54 @@
 		\includegraphics[width=\linewidth]{bareja_quality_flow}
 		\caption{Quality flow at Bareja terminal}
 		\label{bareja_quality_flow}
+	\end{figure}
+	\chapter{LPG Distributorship}
+	\ldots
+	\chapter{Gujarat Refinery}
+	\section{Important Terms and Abbreviations}
+	\begin{itemize}
+		\item AU= Atmospheric Unit
+		\item LGO= Light Gas Oil
+		\item HGO= Heavy Has Oil
+		\item DHDT= Diesel HyDro Treater
+		\item SRU= Sulphur Recovery Unit
+	\end{itemize}
+	\section{Salient points about Gujarat Refinery}
+	\begin{itemize}
+		\item Total capacity = 13.7 MMTPA (the amount of crude it can process)
+		\item All India IOCL capacity = 80.70 MMTPA but will be increased 100+ MMTPA (in 5 years)
+		\item Land size = 1000 acre
+		\item 80\% crude is imported by IB Department
+		\item Crude comes only in pipeline due to financial reasons
+		\item Earlier kerosene was the main product but with the introduction of electrical lighting and internal combustion engines, the main product shifted to MS,HSD. Then began the slow declination of sulphur. All this means the refinery operation is highly dynamic
+		\item Feedback from marketing department helps in refinery product optimization.
+		\item The three things required for successful refinery operation - Equipment, Energy, Employee
+		\item The refinery has a captive power plant of 120 MW
+		\item Maximum capacity of tankage present in refinery is 5000 kL
+		\item A desalter is a device which removes salt by density difference via electrostatic precipitator.
+	\end{itemize}
+	The refinery process flow is summarized in Fig \ref{refinery_flow}.
+	\section{Sulphur removal from fuel}
+	To remove sulphur from fuel, we need to react the fuel with hydrogen. This hydrogen we get from the chemical reaction - \par
+	\ch{CH4 + H2O ->[catalyst] CO + 3 H2 (gas)}\par
+	This reaction occurs in the reformer unit.
+	The \ch{CH4} here cannot have any higher hydrocarbon or it would poison the catalyst. Therefore, to remove any higher hydrocarbon we need a pre-reformer unit.\par
+	The pre-reformer unit removes all higher hydrocarbons from the \ch{CH4} feed, however, if there is sulphur in the feed, it will poison the catalyst. Therefore, to remove sulphur from the feed we need a desulphurisation which required much less hydrogen.
+	
+	The process flow of the sulphur removal process can be seen in Fig \ref{sulphur_removal_flow}.
+	\clearpage
+	\pagebreak
+	\section{Figures}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth,height=13cm]{refinery_flow}
+		\caption{Brief process flow of refinery operations}
+		\label{refinery_flow}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{sulphur_removal_flow}
+		\caption{Process flow of the fuel desulphurisation operation in refinery}
+		\label{sulphur_removal_flow}
 	\end{figure}
 \end{document}
