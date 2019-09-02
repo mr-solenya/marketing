@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.4.10)  2 SEP 2019 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.4.10)  2 SEP 2019 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1318,27 +1318,32 @@ Chapter 1.
 [2
 
 ] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
 [5]
-Overfull \hbox (9.85785pt too wide) in paragraph at lines 292--293
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+
+ []
+
+
+Overfull \hbox (9.85785pt too wide) in paragraph at lines 309--310
 []\OT1/cmr/m/n/10/-25ls (-50) answer 
  []
 
@@ -1352,22 +1357,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/lot_valve.png, id=70, 105.39375pt x 409.53pt>
 File: ./images/lot_valve.png Graphic file (type png)
 <use ./images/lot_valve.png>
-Package pdftex.def Info: ./images/lot_valve.png  used on input line 380.
+Package pdftex.def Info: ./images/lot_valve.png  used on input line 397.
 (pdftex.def)             Requested size: 142.26736pt x 142.26283pt.
 <./images/sc_valve.jpg, id=71, 96.36pt x 96.36pt>
 File: ./images/sc_valve.jpg Graphic file (type jpg)
 <use ./images/sc_valve.jpg>
-Package pdftex.def Info: ./images/sc_valve.jpg  used on input line 381.
+Package pdftex.def Info: ./images/sc_valve.jpg  used on input line 398.
 (pdftex.def)             Requested size: 142.26353pt x 142.26353pt.
 <./images/lpg_flow.jpg, id=72, 1073.00874pt x 537.00626pt>
 File: ./images/lpg_flow.jpg Graphic file (type jpg)
 <use ./images/lpg_flow.jpg>
-Package pdftex.def Info: ./images/lpg_flow.jpg  used on input line 386.
+Package pdftex.def Info: ./images/lpg_flow.jpg  used on input line 403.
 (pdftex.def)             Requested size: 528.93675pt x 264.71681pt.
 <./images/bp_singlelinediag.jpg, id=73, 4312.11pt x 2581.645pt>
 File: ./images/bp_singlelinediag.jpg Graphic file (type jpg)
 <use ./images/bp_singlelinediag.jpg>
-Package pdftex.def Info: ./images/bp_singlelinediag.jpg  used on input line 392
+Package pdftex.def Info: ./images/bp_singlelinediag.jpg  used on input line 409
 .
 (pdftex.def)             Requested size: 528.93675pt x 316.63837pt.
 
@@ -1377,12 +1382,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/sfu.jpg, id=74, 4111.36pt x 3392.675pt>
 File: ./images/sfu.jpg Graphic file (type jpg)
 <use ./images/sfu.jpg>
-Package pdftex.def Info: ./images/sfu.jpg  used on input line 398.
+Package pdftex.def Info: ./images/sfu.jpg  used on input line 415.
 (pdftex.def)             Requested size: 264.46837pt x 218.20206pt.
 <./images/inside_panel.jpg, id=75, 1530.46782pt x 2482.77562pt>
 File: ./images/inside_panel.jpg Graphic file (type jpg)
 <use ./images/inside_panel.jpg>
-Package pdftex.def Info: ./images/inside_panel.jpg  used on input line 399.
+Package pdftex.def Info: ./images/inside_panel.jpg  used on input line 416.
 (pdftex.def)             Requested size: 264.44969pt x 284.50926pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1390,13 +1395,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/dc_distribution.jpg, id=76, 4211.735pt x 3115.64pt>
 File: ./images/dc_distribution.jpg Graphic file (type jpg)
 <use ./images/dc_distribution.jpg>
-Package pdftex.def Info: ./images/dc_distribution.jpg  used on input line 405.
+Package pdftex.def Info: ./images/dc_distribution.jpg  used on input line 422.
 (pdftex.def)             Requested size: 264.46837pt x 195.6303pt.
 <./images/battery_pack_sanand.jpg, id=77, 2119.92pt x 3022.29124pt>
 File: ./images/battery_pack_sanand.jpg Graphic file (type jpg)
 <use ./images/battery_pack_sanand.jpg>
 Package pdftex.def Info: ./images/battery_pack_sanand.jpg  used on input line 4
-06.
+23.
 (pdftex.def)             Requested size: 199.55069pt x 284.52756pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1404,19 +1409,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/neutral_earthing.jpg, id=78, 2686.035pt x 3766.07pt>
 File: ./images/neutral_earthing.jpg Graphic file (type jpg)
 <use ./images/neutral_earthing.jpg>
-Package pdftex.def Info: ./images/neutral_earthing.jpg  used on input line 412.
+Package pdftex.def Info: ./images/neutral_earthing.jpg  used on input line 429.
 
 (pdftex.def)             Requested size: 174.51643pt x 284.51183pt.
 <./images/lightning_earthing.jpg, id=79, 3982.88pt x 2938.98pt>
 File: ./images/lightning_earthing.jpg Graphic file (type jpg)
 <use ./images/lightning_earthing.jpg>
-Package pdftex.def Info: ./images/lightning_earthing.jpg  used on input line 41
-3.
+Package pdftex.def Info: ./images/lightning_earthing.jpg  used on input line 43
+0.
 (pdftex.def)             Requested size: 174.54228pt x 284.49773pt.
 <./images/body_earthing.jpg, id=80, 3641.605pt x 3284.27pt>
 File: ./images/body_earthing.jpg Graphic file (type jpg)
 <use ./images/body_earthing.jpg>
-Package pdftex.def Info: ./images/body_earthing.jpg  used on input line 414.
+Package pdftex.def Info: ./images/body_earthing.jpg  used on input line 431.
 (pdftex.def)             Requested size: 174.53389pt x 284.49638pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1424,7 +1429,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/hazchem.jpg, id=81, 280.04625pt x 232.61906pt>
 File: ./images/hazchem.jpg Graphic file (type jpg)
 <use ./images/hazchem.jpg>
-Package pdftex.def Info: ./images/hazchem.jpg  used on input line 420.
+Package pdftex.def Info: ./images/hazchem.jpg  used on input line 437.
 (pdftex.def)             Requested size: 264.46837pt x 219.68773pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1445,19 +1450,19 @@ Chapter 2.
 <./images/interface_cutting.png, id=112, 771.88374pt x 268.00125pt>
 File: ./images/interface_cutting.png Graphic file (type png)
 <use ./images/interface_cutting.png>
-Package pdftex.def Info: ./images/interface_cutting.png  used on input line 654
+Package pdftex.def Info: ./images/interface_cutting.png  used on input line 671
 .
 (pdftex.def)             Requested size: 528.93675pt x 183.64926pt.
 <./images/bareja_tank_farm.png, id=113, 737.75626pt x 423.5825pt>
 File: ./images/bareja_tank_farm.png Graphic file (type png)
 <use ./images/bareja_tank_farm.png>
-Package pdftex.def Info: ./images/bareja_tank_farm.png  used on input line 660.
+Package pdftex.def Info: ./images/bareja_tank_farm.png  used on input line 677.
 
 (pdftex.def)             Requested size: 528.93675pt x 303.6865pt.
 <./images/tank_modes.png, id=114, 863.225pt x 306.14375pt>
 File: ./images/tank_modes.png Graphic file (type png)
 <use ./images/tank_modes.png>
-Package pdftex.def Info: ./images/tank_modes.png  used on input line 666.
+Package pdftex.def Info: ./images/tank_modes.png  used on input line 683.
 (pdftex.def)             Requested size: 528.93675pt x 187.59293pt.
 
 
@@ -1466,7 +1471,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/tank_alarms.png, id=115, 631.35875pt x 264.99pt>
 File: ./images/tank_alarms.png Graphic file (type png)
 <use ./images/tank_alarms.png>
-Package pdftex.def Info: ./images/tank_alarms.png  used on input line 672.
+Package pdftex.def Info: ./images/tank_alarms.png  used on input line 689.
 (pdftex.def)             Requested size: 528.93675pt x 222.01591pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1474,7 +1479,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/tank_valves.png, id=116, 741.77126pt x 308.15125pt>
 File: ./images/tank_valves.png Graphic file (type png)
 <use ./images/tank_valves.png>
-Package pdftex.def Info: ./images/tank_valves.png  used on input line 678.
+Package pdftex.def Info: ./images/tank_valves.png  used on input line 695.
 (pdftex.def)             Requested size: 528.94762pt x 142.2638pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1482,7 +1487,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/tlf_flow.jpg, id=117, 747.79375pt x 213.79875pt>
 File: ./images/tlf_flow.jpg Graphic file (type jpg)
 <use ./images/tlf_flow.jpg>
-Package pdftex.def Info: ./images/tlf_flow.jpg  used on input line 684.
+Package pdftex.def Info: ./images/tlf_flow.jpg  used on input line 701.
 (pdftex.def)             Requested size: 528.93675pt x 151.23378pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1490,7 +1495,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/filling_flow.jpg, id=118, 895.345pt x 498.86375pt>
 File: ./images/filling_flow.jpg Graphic file (type jpg)
 <use ./images/filling_flow.jpg>
-Package pdftex.def Info: ./images/filling_flow.jpg  used on input line 690.
+Package pdftex.def Info: ./images/filling_flow.jpg  used on input line 707.
 (pdftex.def)             Requested size: 528.93675pt x 294.71527pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1503,7 +1508,7 @@ s/tank_modes.png> <./images/tank_alarms.png> <./images/tank_valves.png>]
 <./images/distribution_flow.jpg, id=134, 1578.89874pt x 745.78625pt>
 File: ./images/distribution_flow.jpg Graphic file (type jpg)
 <use ./images/distribution_flow.jpg>
-Package pdftex.def Info: ./images/distribution_flow.jpg  used on input line 698
+Package pdftex.def Info: ./images/distribution_flow.jpg  used on input line 715
 .
 (pdftex.def)             Requested size: 701.00066pt x 331.11708pt.
  [21
@@ -1513,18 +1518,18 @@ Package pdftex.def Info: ./images/distribution_flow.jpg  used on input line 698
 File: ./images/bareja_quality_flow.png Graphic file (type png)
 <use ./images/bareja_quality_flow.png>
 Package pdftex.def Info: ./images/bareja_quality_flow.png  used on input line 7
-06.
+23.
 (pdftex.def)             Requested size: 528.93675pt x 189.32465pt.
 <./images/fire_triangle.png, id=139, 350.30875pt x 297.11pt>
 File: ./images/fire_triangle.png Graphic file (type png)
 <use ./images/fire_triangle.png>
-Package pdftex.def Info: ./images/fire_triangle.png  used on input line 712.
+Package pdftex.def Info: ./images/fire_triangle.png  used on input line 729.
 (pdftex.def)             Requested size: 142.26447pt x 142.27116pt.
 <./images/hierarchy_of_controls.png, id=140, 498.86375pt x 320.19624pt>
 File: ./images/hierarchy_of_controls.png Graphic file (type png)
 <use ./images/hierarchy_of_controls.png>
 Package pdftex.def Info: ./images/hierarchy_of_controls.png  used on input line
- 713.
+ 730.
 (pdftex.def)             Requested size: 142.26137pt x 142.26457pt.
  [22
 
@@ -1541,24 +1546,24 @@ Chapter 4.
 <./images/refinery_flow.jpg, id=155, 745.78625pt x 587.19376pt>
 File: ./images/refinery_flow.jpg Graphic file (type jpg)
 <use ./images/refinery_flow.jpg>
-Package pdftex.def Info: ./images/refinery_flow.jpg  used on input line 756.
+Package pdftex.def Info: ./images/refinery_flow.jpg  used on input line 817.
 (pdftex.def)             Requested size: 528.95435pt x 369.88026pt.
 <./images/sulphur_removal_flow.jpg, id=156, 1246.6575pt x 410.53375pt>
 File: ./images/sulphur_removal_flow.jpg Graphic file (type jpg)
 <use ./images/sulphur_removal_flow.jpg>
 Package pdftex.def Info: ./images/sulphur_removal_flow.jpg  used on input line 
-762.
+823.
 (pdftex.def)             Requested size: 528.93675pt x 174.18324pt.
  [25
 
  <./images/refinery_flow.jpg> <./images/sulphur_removal_flow.jpg>]
 (./marketing_tuneer.aux) ) 
 Here is how much of TeX's memory you used:
- 31797 strings out of 494484
- 644261 string characters out of 6175786
+ 31800 strings out of 494484
+ 644292 string characters out of 6175786
  684647 words of memory out of 5000000
  34797 multiletter control sequences out of 15000+600000
- 568656 words of font info for 211 fonts, out of 8000000 for 9000
+ 568758 words of font info for 213 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  67i,14n,108p,625b,704s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/tuneer/.texlive2018/texmf-var/fonts/pk/ljfour
@@ -1572,7 +1577,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on marketing_tuneer.pdf (26 pages, 10346150 bytes).
+Output written on marketing_tuneer.pdf (26 pages, 10348974 bytes).
 PDF statistics:
  199 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams
