@@ -43,4 +43,5 @@
 \contentsline {section}{\numberline {4.2}Salient points about Gujarat Refinery}{27}% 
 \contentsline {section}{\numberline {4.3}Sulphur removal from fuel}{27}% 
 \contentsline {section}{\numberline {4.4}Figures}{28}% 
-\contentsline {chapter}{\numberline {5}FAQs}{29}% 
+\contentsline {chapter}{\numberline {5}Pipelines Session by Mr. Sanjiv Kumar Samal}{29}% 
+\contentsline {chapter}{\numberline {6}FAQs}{30}% 
